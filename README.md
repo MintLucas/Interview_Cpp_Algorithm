@@ -3,14 +3,12 @@
 
 说明
 ---
-- 秋招紧迫，已经没有时间一道道题整理了，因此本仓库只记录了需要调试的部分问题
-- 为了方便浏览，更多的问题将直接把**思路**和**代码**贴在该仓库的[**算法**](https://github.com/imhuay/Interview_Notes-Chinese/tree/master/算法)一栏中
-  - [题解-剑指Offer.md](https://github.com/imhuay/Interview_Notes-Chinese/blob/master/算法/题解-剑指Offer.md)
-  - [题解-LeetCode.md](https://github.com/imhuay/Interview_Notes-Chinese/blob/master/算法/题解-LeetCode.md)
-  - [专题-动态规划.md](https://github.com/imhuay/Interview_Notes-Chinese/blob/master/算法/专题-动态规划.md)
-  - ...
+- 本仓库为个人刷算法题的记录，适合准备春招or秋招的小伙伴🔥
+- LeetCode和牛客文件夹仅代码记录，会持续更新...
+- 系统观看和复习建议直接戳👉[**Algorithm_for_Interview**](https://github.com/MintLucas/Interview_Cpp_Algorithm/tree/master/Algorithm_for_Interview)
 
 ### RoadMap
+
 - [_笔试](./Algorithm_for_Interview/_笔试)
   - [拼多多180722](./Algorithm_for_Interview/_笔试/拼多多180722)
 - [_cpp回顾](./Algorithm_for_Interview/_cpp回顾)
@@ -37,4 +35,6 @@
 
 - [牛客网-题库](https://www.nowcoder.com/contestRoom)
 	- [剑指Offer](https://www.nowcoder.com/ta/coding-interviews)
-- [LeetCode-中国](https://leetcode-cn.com/problemset/all/)
+- [LeetCode](https://leetcode.com/problemset/all/)
+- [imhuay](https://github.com/imhuay/Interview_Notes-Chinese)
+
