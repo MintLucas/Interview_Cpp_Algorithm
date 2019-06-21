@@ -54,7 +54,6 @@
 		85011BF5225D98050062320D /* HuaWeiOJ0_108.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HuaWeiOJ0_108.cpp; sourceTree = "<group>"; };
 		85011BF6225D98060062320D /* HuaWeiOJ0_108.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HuaWeiOJ0_108.hpp; sourceTree = "<group>"; };
 		85266E7522BB316000ABF14B /* Speech笔试_李志鹏_17630380817.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Speech笔试_李志鹏_17630380817.cpp"; sourceTree = "<group>"; };
-		85266E7622BB316000ABF14B /* Speech笔试_李志鹏_17630380817.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Speech笔试_李志鹏_17630380817.hpp"; sourceTree = "<group>"; };
 		85340D73224F04F1003936D8 /* BSortTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BSortTree.cpp; sourceTree = "<group>"; };
 		85340D74224F04F1003936D8 /* BSortTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BSortTree.hpp; sourceTree = "<group>"; };
 		859EF2D6223D1B60001E15B5 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,7 +137,6 @@
 				85AB074A22689EF4007CFECD /* dfs.hpp */,
 				85011BF6225D98060062320D /* HuaWeiOJ0_108.hpp */,
 				85266E7522BB316000ABF14B /* Speech笔试_李志鹏_17630380817.cpp */,
-				85266E7622BB316000ABF14B /* Speech笔试_李志鹏_17630380817.hpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
