@@ -995,9 +995,4 @@ int search(vector<int>& nums, int target) {
     return nums[hi] == target ? hi : -1;
 }
 
-int main(){
-    vector<int> test{4,5,6,7,0,1,2};
-    auto ret = search(test, 0);
-    cout << ret;
-}
 
