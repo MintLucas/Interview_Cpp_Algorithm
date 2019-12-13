@@ -87,14 +87,14 @@ int editDistance(string s1, string s2){
     return dp[m][n];
 }
 
-int main(){
-    int tes1 = 7;
-    auto res1 = jumpFloor(tes1);
-    cout << "共有" << res1 << "种跳法" << endl;
-    
-    string s1 = "speech";
-    string s2 = "sibichi";
-    auto res2 = editDistance(s1, s2);
-    cout << "最少需要" << res2 << "次修改" << endl;
-}
+//int main(){
+//    int tes1 = 7;
+//    auto res1 = jumpFloor(tes1);
+//    cout << "共有" << res1 << "种跳法" << endl;
+//
+//    string s1 = "speech";
+//    string s2 = "sibichi";
+//    auto res2 = editDistance(s1, s2);
+//    cout << "最少需要" << res2 << "次修改" << endl;
+//}
 
