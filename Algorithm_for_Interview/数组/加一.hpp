@@ -23,14 +23,39 @@
 
 解题思路：
     1. 依次进位
-
+    2. 如果--len则len为), 当len=0时代表无数
+    3. 如果len--则len为[ 即所指为当前数字类似栈指针top=-1, 当-1时代表无数
 提交记录：
+
 
 */
 #pragma once
 
 #include "../all.h"
 
+
+
+方法一： 
+
+vector<int> plusOneA(vector<int>& digits){
+    int len = digits.size();
+    if(len < 1) return digits;
+    if(digits[--len] != 9)
+        digits[len]++;
+    else{
+        while (digits[len] == 9) {
+            digits[len--] = 0;
+        }
+        if(len == -1)
+            digits.insert(digits.begin(), 1);
+        else
+            digits[len]++;
+    }
+    return digits;
+}
+
+
+方法二：直接加法进位
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -54,3 +79,36 @@ solve()
 
 }
 
+方法三：vector_to_num->num_to_vec
+
+```cpp
+long int vector_to_num(vector<int> &vec){
+    int len = vec.size();
+    long int sum = 0;
+    for (int i = 0; i < len; ++i) {
+        sum = sum * 10 + vec[i];
+    }
+    return sum;
+}
+vector<int> num_to_vec(vector<int> &vec,long int num){
+    int len = vec.size();
+    int i = 0;
+    while (num != 0) {
+        if(len == 0){
+            vec.insert(vec.begin(), num%10);
+            break;
+        }
+        vec[--len] = num%10;
+        num /= 10;
+    }
+    return vec;
+}
+
+vector<int> plusOne(vector<int>& digits) {
+    int len = digits.size();
+    if(len < 1) return digits;
+    long int num = vector_to_num(digits);
+    digits = num_to_vec(digits, num+1);
+    return digits;
+}
+```

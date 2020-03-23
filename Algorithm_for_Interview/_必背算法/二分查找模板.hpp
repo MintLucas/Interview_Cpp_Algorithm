@@ -26,11 +26,15 @@
 int binary_search(vector<int>& nums, int v) {
     if (nums.size()
      < 1) return - 1;
-
+    
+    //两边开区间
     int lo = -1, hi = nums.size();
-
+    
+    //两个开相邻遍历完毕退出
     while (hi - lo > 1) {
+        //防止越界
         int mid = lo + (hi - lo) / 2;
+        //lo为开 <不含=则跨
         if (nums[mid] < v)
             lo = mid;
         else
@@ -62,6 +66,7 @@ int lower_bound(vector<int>& nums, int v) {
     在迭代的过程中，hi 会从开区间变为闭区间，而 lo 始终是开区间，
     返回 lo+1 显得更加统一。
     当然，这跟迭代的写法是相关的，你也可以使最终的结果区间是 [lo, hi)nums[mid]<=v，
+    即upper_bound，符合=时Low为闭区间lo右移动，直到跳出时谁移动谁在最末尾即Lo在重复末尾，
     这取决于个人习惯。
 */
 

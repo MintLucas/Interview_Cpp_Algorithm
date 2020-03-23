@@ -225,7 +225,9 @@
     <ClInclude Include="数学\丑数.hpp" />
     <ClInclude Include="数学\超级次方.hpp" />
     <ClInclude Include="数组\加一.hpp" />
-    <ClInclude Include="数组\数组中出现次数超过一半的数字.hpp" />
+    <ClInclude Include="数组\数组中出现次数超过一半的数字.hpp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </ClInclude>
     <ClInclude Include="数组\数组中的逆序对.hpp" />
     <ClInclude Include="数组\调整数组顺序使奇数位于偶数前面.hpp" />
     <ClInclude Include="数组\顺时针打印矩阵.hpp" />
@@ -242,6 +244,7 @@
     <ClInclude Include="链表\复杂链表的复制.hpp" />
     <ClInclude Include="链表\链表中倒数第k个节点.hpp" />
     <ClInclude Include="链表\链表中环的入口结点.hpp" />
+    <ClInclude Include="数组\删除数组重复元素.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

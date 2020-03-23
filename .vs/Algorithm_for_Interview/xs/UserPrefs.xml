@@ -1,7 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithm_for_Interview/_cpp回顾/STL容器/vector.hpp">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithm_for_Interview/_必背算法/二分查找模板.hpp">
     <Files>
-      <File FileName="Algorithm_for_Interview/_cpp回顾/STL容器/vector.hpp" Line="20" Column="15" />
+      <File FileName="Algorithm_for_Interview/_cpp回顾/STL容器/vector.hpp" Line="24" Column="5" />
+      <File FileName="Algorithm_for_Interview/数组/数组中出现次数超过一半的数字.hpp" Line="23" Column="1" />
+      <File FileName="Algorithm_for_Interview/数组/Valid Sudoku.md" Line="1" Column="1" />
+      <File FileName="Algorithm_for_Interview/数组/加一.hpp" Line="1" Column="1" />
+      <File FileName="Algorithm_for_Interview/数组/数组中的逆序对.hpp" Line="1" Column="1" />
+      <File FileName="Algorithm_for_Interview/_cpp回顾/Cpp之string专题.hpp" Line="1" Column="1" />
+      <File FileName="Algorithm_for_Interview/_必背算法/二分查找模板.hpp" Line="1" Column="1" />
+      <File FileName="Algorithm_for_Interview/_必背算法/二分查找最优解模板.hpp" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,6 +16,10 @@
           <Node name="Algorithm_for_Interview" expanded="True">
             <Node name="Algorithm_for_Interview" expanded="True">
               <Node name="_cpp回顾" expanded="True" />
+              <Node name="_必背算法" expanded="True">
+                <Node name="二分查找模板.hpp" selected="True" />
+              </Node>
+              <Node name="数组" expanded="True" />
             </Node>
           </Node>
         </State>
